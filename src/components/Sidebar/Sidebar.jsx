@@ -1,11 +1,12 @@
 import React from "react";
 import "./Sidebar.css";
+import logo1 from "../../assets/logo1.png";
 
 const Sidebar = () => {
   return (
     <aside className="aside">
       <a href="#home" className="nav__logo">
-        <img src="" alt="" />
+        <img src={logo1} alt="" />
       </a>
 
       <nav className="nav">
@@ -53,13 +54,11 @@ const Sidebar = () => {
             </li>
           </ul>
         </div>
-          </nav>
-          
-          <div className="nav__footer">
-              <span className="copyright">
-                  &copy; Connect Riaj | 2025
-              </span>
-          </div>
+      </nav>
+
+      <div className="nav__footer">
+        <span className="copyright">&copy; Connect Riaj | 2025</span>
+      </div>
     </aside>
   );
 };

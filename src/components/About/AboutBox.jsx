@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutBox = () => {
   return (
-    <div className="about__boxes grid">
+    <div className="about__boxes grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
       <div className="about__box">
         <i className="about__icon icon-fire"></i>
         <div>
