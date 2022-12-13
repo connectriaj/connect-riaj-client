@@ -2,7 +2,7 @@ import React from "react";
 
 const HeaderSocials = () => {
   return (
-    <div className="home__socials">
+    <div className="home__socials flex justify-between items-center">
       <a
         href="https://www.instagram.com"
         className="home__social-link"

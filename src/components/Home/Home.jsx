@@ -9,13 +9,15 @@ const Home = () => {
   return (
     <section className="home container" id="home">
       <div className="intro">
-        <img src={man} alt="intro" className="home__image" />
+        <img src={man} alt="intro" className="home__image mx-auto" />
         <h1 className="home__name">Md Riajul Islam</h1>
         <span className="home__education">I'm a MERN Stack Developer</span>
         <HeaderSocials />
-        <a href="#contact" className="btn">
-          Hire Me
-        </a>
+        <button className="btn">
+          <a href="#contact">
+            Hire Me
+          </a>
+        </button>
         <ScrollDown />
       </div>
       <Shapes />
