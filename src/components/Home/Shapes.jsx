@@ -1,6 +1,6 @@
 import React from "react";
 
-const Shapes = () => {
+  const Shapes = () => {
   return (
     <div className="shapes">
       <svg
